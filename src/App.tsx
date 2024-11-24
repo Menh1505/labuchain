@@ -3,8 +3,8 @@ import Game from './components/Game';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
-      <div className="w-full h-[calc(100vh-2rem)] max-w-3xl bg-white rounded-lg shadow-lg"> 
+    <div className="w-screen h-screen bg-gray-100">
+      <div className="w-full h-full max-h-[932px] max-w-[425px] mx-auto bg-white">
         <Game />
       </div>
     </div>
