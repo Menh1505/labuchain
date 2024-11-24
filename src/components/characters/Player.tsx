@@ -32,7 +32,7 @@ const Player: React.FC<PlayerProps> = ({ x, y, onAttack }) => {
         <Image
             x={x}
             y={y}
-            image={image}
+            image={image} //sprite sheet
             width={frameWidth}
             height={frameHeight}
             crop={{
